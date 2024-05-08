@@ -19,9 +19,12 @@ const InputBox: React.FC<InputBoxProps> = ({color, setColor}) => {
           color:"black",
           backgroundColor: 'lightblue',
           border: '1px solid black', 
+          borderRadius: '10px',
+          marginTop: '5px',
+          
         }}
       />
-      <p>Input Text: {color}</p>
+      <p>Enter color Name {color}</p>
     </div>
   );
 };
